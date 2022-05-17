@@ -13,15 +13,15 @@ task clean(type: Delete) {
 sonarqube {
     properties {
         property "sonar.projectKey", "Sample-Sonar-App"
-        property "sonar.projectName", "Sample Sonar App"
-        property "sonar.tests", ["src/test/java"]
-        property "sonar.test.inclusions", "**/*Test*/**"
-        property "sonar.sourceEncoding", "UTF-8"
-        property "sonar.sources", "src/main/java"
-        property "sonar.exclusions", '**/*Test*/**,' +
-                '*.json,' +
-                '**/*test*/**,' +
-                '**/.gradle/**,' +
-                '**/R.class'
+//        property "sonar.projectName", "Sample Sonar App"
+//        property "sonar.tests", ["src/test/java"]
+//        property "sonar.test.inclusions", "**/*Test*/**"
+//        property "sonar.sourceEncoding", "UTF-8"
+//        property "sonar.sources", "src/main/java"
+//        property "sonar.exclusions", '**/*Test*/**,' +
+//                '*.json,' +
+//                '**/*test*/**,' +
+//                '**/.gradle/**,' +
+//                '**/R.class'
     }
 }
