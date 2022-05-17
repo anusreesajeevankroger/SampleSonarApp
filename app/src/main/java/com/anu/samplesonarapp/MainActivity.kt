@@ -8,6 +8,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        Toast.makeText(this, "Hello! welcome to sonar", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "Hai! welcome to sonar", Toast.LENGTH_SHORT).show()
     }
 }
